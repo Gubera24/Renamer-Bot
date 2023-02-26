@@ -32,9 +32,9 @@ async def start(bot, update):
           text=Scripted.START_TEXT,
           parse_mode="html",
           disable_web_page_preview=True,
-          reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text='⭕ Cʜᴀɴɴᴇʟ ⭕', url=f'https://t.me/{Config.UPDATE_CHANNEL}'),
-                                                 InlineKeyboardButton(text='⭕ Sᴜᴘᴘᴏʀᴛ ⭕', url=f'https://t.me/{Config.UPDATE_GROUP}') ],
-                                               [ InlineKeyboardButton(text='👨‍💻 Dᴇᴘʟᴏʏ Nᴏᴡ', url='https://youtu.be/2FHgg8o1YY8'),                                                
+          reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text='👻 Horror Movie's Tamil 👻', url=f'https://t.me/+-dxpAX6SVhliMGVl'),
+                                                 InlineKeyboardButton(text='🍓 Webseries Tamil 🍓', url=f'https://t.me/+JjT99ajwqQs1Mjdl') ],
+                                               [ InlineKeyboardButton(text='👨‍💻 Join', url='https://t.me/Tamilan24'),                                                
                                                  InlineKeyboardButton(text='🔐 Cʟᴏꜱᴇ 🔐', callback_data='DM') ] ] ) )
 
 
